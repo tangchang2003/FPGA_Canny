@@ -14,7 +14,7 @@ module vip_sobel_edge_detector
     output      	post_frame_vsync, 
     output      	post_frame_href,  
     output      	post_frame_clken, 
-    output [15:0] post_img_bit    
+    output [8:0] post_img_bit    
 );
 //reg define 
 reg [9:0]  gx_temp2; //第三列值
